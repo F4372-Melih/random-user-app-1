@@ -11,5 +11,5 @@
   line-height: 5rem;
 }
 .card-img-top {
-  width: 100px;
+  width: 100px !important;
 }
