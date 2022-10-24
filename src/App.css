@@ -1,0 +1,15 @@
+#root {
+  height: 100vh;
+  background-color: brown;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(194, 50, 50);
+}
+
+.button .btn {
+  width: 10rem !important;
+}

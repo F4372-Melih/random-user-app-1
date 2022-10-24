@@ -1,0 +1,15 @@
+.card {
+  width: 50rem;
+  text-align: center;
+  padding: 2%;
+  margin-right: 2rem;
+}
+.card-header {
+  line-height: 5rem;
+}
+.card-body {
+  line-height: 5rem;
+}
+.card-img-top {
+  width: 100px;
+}
