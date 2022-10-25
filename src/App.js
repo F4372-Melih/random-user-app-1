@@ -27,18 +27,17 @@ function App() {
     getUser();
   };
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Main {...user} />
-      <div className="button">
-        <button
-          disabled={loading}
-          onClick={handleUser}
-          type="button"
-          class="btn btn-info"
-        >
-          {loading ? "Loading..." : "Random User"}
-        </button>
-      </div>
+
+      <button
+        disabled={loading}
+        onClick={handleUser}
+        type="button"
+        class="btn btn-info"
+      >
+        {loading ? "Loading..." : "Random User"}
+      </button>
     </div>
   );
 }

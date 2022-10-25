@@ -2,14 +2,18 @@
   height: 100vh;
   background-color: brown;
 }
-.container {
-  height: 100vh;
+
+.container-fluid {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   background-color: rgb(194, 50, 50);
 }
 
-.button .btn {
-  width: 10rem !important;
+.btn {
+  margin-top: 0.1rem;
+  display: flex;
+  min-width: fit-content;
 }
